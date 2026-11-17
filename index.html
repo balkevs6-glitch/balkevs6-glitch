@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Kervin Balasanos — Aspiring Software Engineer interested in backend development, API design, and software engineering."
+    />
+
+    <title>Kervin Balasanos | Aspiring Software Engineer</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="#home" class="logo">bkb<span>6.</span></a>
+
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero section" id="home">
+        <div class="container hero-content">
+          <p class="eyebrow">ASPIRING SOFTWARE ENGINEER</p>
+
+          <h1>
+            Building systems.<br />
+            <span>Understanding technology.</span>
+          </h1>
+
+          <p class="hero-description">
+            I'm Kervin Balasanos, a BSIT student interested in backend
+            development, API design, and building reliable software systems.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore Projects <span>↗</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary"> Contact Me </a>
+          </div>
+
+          <p class="location">Tacloban City, Philippines</p>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container">
+          <p class="section-label">01 / ABOUT</p>
+
+          <h2 class="section-title">A little about me.</h2>
+
+          <div class="about-content">
+            <p>
+              I'm a BSIT student at Eastern Visayas State University and an
+              aspiring software engineer interested in understanding how
+              software systems are designed and developed.
+            </p>
+
+            <p>
+              I enjoy building REST APIs, backend services, and exploring how
+              different technologies work together. My interests include
+              software architecture, database management, application security,
+              and maintainable code.
+            </p>
+
+            <p>
+              I believe in learning the fundamentals behind the tools I use and
+              continuously improving through hands-on projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills">
+        <div class="container">
+          <p class="section-label">02 / TECHNICAL SKILLS</p>
+
+          <h2 class="section-title">Technologies I work with.</h2>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Programming Languages</h3>
+              <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Frameworks & Libraries</h3>
+              <ul>
+                <li>FastAPI</li>
+                <li>Express.js</li>
+                <li>React</li>
+                <li>Pydantic</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Databases</h3>
+              <ul>
+                <li>PostgreSQL</li>
+                <li>SQLite</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Backend Services</h3>
+              <ul>
+                <li>Supabase</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Development Tools</h3>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>PowerShell</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="container">
+          <p class="section-label">03 / SELECTED WORK</p>
+
+          <h2 class="section-title">Projects I'm building.</h2>
+
+          <p class="section-description">
+            A collection of projects where I apply programming concepts and
+            explore software development.
+          </p>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-category">BACKEND DEVELOPMENT</span>
+              <span class="project-status">In Development</span>
+            </div>
+
+            <h3>Student Management System</h3>
+
+            <p class="project-description">
+              A backend-focused student management system designed to manage
+              student records, authentication, courses, and enrollment
+              workflows.
+            </p>
+
+            <div class="project-features">
+              <p>Implemented features:</p>
+              <ul>
+                <li>Authentication and user management</li>
+                <li>Student management CRUD</li>
+                <li>Request validation using Pydantic</li>
+                <li>Role-based access control</li>
+              </ul>
+            </div>
+
+            <div class="tech-stack">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>PostgreSQL</span>
+              <span>Pydantic</span>
+            </div>
+
+            <a
+              href="https://github.com/balkevs6-glitch/student-management-system"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View Repository ↗
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Currently Learning -->
+      <section class="section" id="learning">
+        <div class="container">
+          <p class="section-label">04 / CURRENT FOCUS</p>
+
+          <h2 class="section-title">Currently learning.</h2>
+
+          <div class="learning-list">
+            <div class="learning-item">
+              <span>01</span>
+              <p>Backend application architecture with Express.js</p>
+            </div>
+
+            <div class="learning-item">
+              <span>02</span>
+              <p>SQL and relational database management</p>
+            </div>
+
+            <div class="learning-item">
+              <span>03</span>
+              <p>Object-oriented programming and software design</p>
+            </div>
+
+            <div class="learning-item">
+              <span>04</span>
+              <p>Unit testing and backend application testing</p>
+            </div>
+
+            <div class="learning-item">
+              <span>05</span>
+              <p>AI-assisted and AI-integrated development</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <p class="section-label">05 / GET IN TOUCH</p>
+
+          <h2 class="section-title">Let's connect.</h2>
+
+          <p class="contact-description">
+            I'm always interested in learning, collaborating, and connecting
+            with people in software development.
+          </p>
+
+          <a
+            href="https://github.com/balkevs6-glitch"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Visit My GitHub ↗
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <a href="#home" class="logo">bkb<span>6.</span></a>
+
+        <p>
+          © <span id="current-year"></span> Kervin Balasanos. Built with HTML,
+          CSS, and JavaScript.
+        </p>
+
+        <a
+          href="https://github.com/balkevs6-glitch"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub ↗
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
