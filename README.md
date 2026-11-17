@@ -27,8 +27,6 @@ I also value understanding programming fundamentals and the underlying concepts 
 ### Frameworks & Libraries
 - FastAPI
 - Express.js
-- React
-- Pydantic
 
 ### Databases
 - PostgreSQL
@@ -41,7 +39,6 @@ I also value understanding programming fundamentals and the underlying concepts 
 - Visual Studio Code
 - Git
 - GitHub
-- PowerShell
 
 ---
 
@@ -49,14 +46,13 @@ I also value understanding programming fundamentals and the underlying concepts 
 
 ### Student Management System
 
-**Tech Stack:** Python, FastAPI, PostgreSQL, Pydantic
+**Tech Stack:** Python, FastAPI, PostgreSQL
 
 A backend-focused student management system designed to manage student records, authentication, courses, and enrollment workflows.
 
 **Implemented Features:**
 - Authentication and user management
 - Student management CRUD
-- Request validation using Pydantic
 - Role-based access control
 
 **Project Status:** In Development
