@@ -1,11 +1,12 @@
 # Kervin Balasanos
+
 **Aspiring Software Engineer**
 
 BSIT Student at Eastern Visayas State University (EVSU)
 
 📍 Tacloban City, Philippines
 
----
+## 🌐 **Live Portfolio:** [balkevs6-glitch.github.io/balkevs6-glitch](https://balkevs6-glitch.github.io/balkevs6-glitch/)
 
 ## About Me
 
@@ -20,21 +21,26 @@ I also value understanding programming fundamentals and the underlying concepts 
 ## Technical Skills
 
 ### Programming Languages
+
 - Python
 - JavaScript
 
 ### Frameworks & Libraries
+
 - FastAPI
 - Express.js
 
 ### Databases
+
 - PostgreSQL
 - SQLite
 
 ### Backend Services
+
 - Supabase
 
 ### Development Tools
+
 - Visual Studio Code
 - Git
 - GitHub
@@ -50,6 +56,7 @@ I also value understanding programming fundamentals and the underlying concepts 
 A backend-focused student management system designed to manage student records, authentication, courses, and enrollment workflows.
 
 **Implemented Features:**
+
 - Authentication and user management
 - Student management CRUD
 - Role-based access control
@@ -79,4 +86,4 @@ You can explore my repositories to follow my learning progress and see the proje
 
 ---
 
-*Building, learning, and improving one project at a time.*
+_Building, learning, and improving one project at a time._
